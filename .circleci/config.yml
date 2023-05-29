@@ -2,7 +2,7 @@ jobs:
   build:
     steps:
       - checkout
-      - run: echo "This is a build step"    # similar to "script" in GitLab.
+      - run: echo "This is a build step"    # similar to "script" in GitLab
 
   test:
     steps:
